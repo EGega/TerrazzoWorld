@@ -1,0 +1,54 @@
+.h2div {
+  width: 100%;
+  height: 400px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h2div h2 {
+  font-size: 1.8rem;
+  background-color: rgb(216, 173, 55);
+  padding: 15px;
+  color: #fff;
+  width: 20%;
+  text-align: center;
+  line-height: 3rem;
+  height: 435;
+  align-self: center;
+}
+.containing {
+  background-color: rgb(19, 18, 18);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 800px;
+  grid-gap: 30px;
+}
+.contactFirst, .contactSecond, .contactThird {
+  background-color: rgb(216, 173, 55);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  border-radius: 15px;
+  margin-top: 80px;
+  height: 60%;
+  align-self: center;
+  
+}
+.contactFirst:hover, .contactSecond:hover, .contactThird:hover {
+  background-color: rgb(233, 224, 224);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow:5px 10px #463e3e;
+  margin-top: 80px;
+  transition-duration: 300ms;
+  padding: 15px;
+   
+}

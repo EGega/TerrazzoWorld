@@ -1,0 +1,179 @@
+.my-div-1{
+  background-image: url('img/manson-yim-QKSk3qiRG5E-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height: 100vh;
+
+}
+.my-div-2{
+  background-image: url('img/alexander-schimmeck-tq-Mpg6Oy70-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height: 100vh;
+
+}
+.my-div-3{
+  background-image: url('img/jake-blucker-ZGnC2gOvzKw-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height: 100vh;
+
+}
+.inside-div {
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inside-div p {
+  margin-left: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+ .h1-class {
+  font-size: 40px;
+  margin-left: 30px;
+
+} 
+
+/* Section 11 */ 
+.ftl-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) ; 
+  
+
+}
+.ftl-sections img{
+  width: 100%;
+  height: 600px;
+}
+.ftl-sections .explain1, .ftl-sections .explain2 {
+  width: 100%;
+  height: 600px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  background: #f4f4f4;
+}
+.ftl-sections .explain1 p, .ftl-sections .explain2 p {
+  padding: 30px;
+  font-size: 1.2rem;
+  
+}
+.ftl-sections .explain1 h2, .ftl-sections .explain2 h2 {
+text-align: center;
+
+}
+
+
+/* PAO and XTL */
+
+.ftl-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) ; 
+  
+
+}
+.ftl-sections img{
+  width: 100%;
+  height: 600px;
+}
+.ftl-sections .explain11, .ftl-sections .explain22 {
+  width: 100%;
+  height: 600px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  background: #f4f4f4;
+}
+.ftl-sections .explain11 p, .ftl-sections .explain22 p {
+  padding: 30px;
+  font-size: 1.2rem;
+  
+}
+.ftl-sections .explain11 h2, .ftl-sections .explain22 h2 {
+text-align: center;
+
+}
+/* LOX and RAL */
+
+.ftl-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) ; 
+  
+
+}
+.ftl-sections img{
+  width: 100%;
+  height: 600px;
+}
+.ftl-sections .explain111, .ftl-sections .explain222 {
+  width: 100%;
+  height: 600px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  background: #f4f4f4;
+}
+.ftl-sections .explain111 p, .ftl-sections .explain222 p {
+  padding: 30px;
+  font-size: 1.2rem;
+  
+}
+.ftl-sections .explain111 h2, .ftl-sections .explain222 h2 {
+text-align: center;
+
+}
+
+
+
+
+
+.counters {
+	background: #0f479a;
+	color: #fff;
+	padding: 40px 20px;
+	border-top: 3px lightskyblue solid;
+}
+
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	text-align: center;
+}
+
+.counters i {
+	color: lightskyblue;
+	margin-bottom: 5px;
+}
+
+.counters .counter {
+	font-size: 45px;
+	margin: 10px 0;
+}
+
+@media (max-width: 700px) {
+	.counters .container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.counters .container > div:nth-of-type(1),
+	.counters .container > div:nth-of-type(2) {
+		border-bottom: 1px lightskyblue solid;
+		padding-bottom: 20px;
+	}
+}
