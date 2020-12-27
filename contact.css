@@ -25,7 +25,7 @@
   height: 800px;
   grid-gap: 30px;
 }
-.contactFirst, .contactSecond, .contactThird {
+.contactFirst, .contactThird {
   background-color: rgb(216, 173, 55);
   display: flex;
   flex-direction: column;
@@ -36,9 +36,28 @@
   margin-top: 80px;
   height: 60%;
   align-self: center;
-  
 }
-.contactFirst:hover, .contactSecond:hover, .contactThird:hover {
+.contactSecond {
+  background-color: rgb(233, 218, 178);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  border-radius: 15px;
+  margin-top: 80px;
+  height: 60%;
+  align-self: center;
+  border-radius: 15px;
+}
+.g-maps {
+  border-bottom-left-radius: 15px; 
+  border-bottom-right-radius: 15px;
+}
+.contactThird .a-color {
+  color: #212529;
+}
+.contactFirst:hover, .contactThird:hover {
   background-color: rgb(233, 224, 224);
   display: flex;
   flex-direction: column;

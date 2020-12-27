@@ -1,5 +1,5 @@
 .my-div-1{
-  background-image: url('img/manson-yim-QKSk3qiRG5E-unsplash.jpg');
+  background-image: url('img/jake-blucker-ZGnC2gOvzKw-unsplash.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,11 +34,12 @@
 }
 .inside-div p {
   margin-left: 30px;
+  margin-right: 30px;
   color: #fff;
   font-size: 20px;
 }
  .h1-class {
-  font-size: 40px;
+  font-size: 30px;
   margin-left: 30px;
 
 } 
@@ -53,6 +54,10 @@
 .ftl-sections img{
   width: 100%;
   height: 600px;
+}
+.ftl-sections li {
+  list-style-type: none;
+  font-size: 1.2rem;
 }
 .ftl-sections .explain1, .ftl-sections .explain2 {
   width: 100%;
@@ -73,6 +78,16 @@
 text-align: center;
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* PAO and XTL */
