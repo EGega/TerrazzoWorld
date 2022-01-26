@@ -99,3 +99,16 @@ justify-content: end;
   font-size: 18px;
 }
 
+@media(max-width: 600px) { 
+  .inner-div {
+    margin-top: 40px;
+    background-color: rgb(0, 0, 0); 
+    padding: 15px;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    line-height: 3rem;
+    height: 70%;
+    align-self: center;
+  }
+}

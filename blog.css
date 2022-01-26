@@ -243,3 +243,66 @@ Project Right */
   right: 3%;
   cursor: pointer;
 }
+
+@media(max-width: 600px) {
+  #design {
+    background: #000;
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+  
+  .designWithUs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);  
+    margin-bottom: 40px;
+  }
+  
+  .designWithUs .img-div { 
+    align-self: center;
+    justify-self: center;
+   
+  }
+  .designWithUs img { 
+    height: auto;
+    width: 80%; 
+    border-radius: 100px; 
+  }
+  .designWithUs .btn-div {
+  
+    background: #212529;
+    height: 250px;
+    width: 80%; 
+    align-self: center;
+    justify-self: center;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  .btn-div h2 {
+    font-size: 20px;
+  }
+  .btn-design {
+    align-self: center;
+    width: 150px;
+    height: 80px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin-top: 5%;
+    transition: ease 0.5s;
+  } 
+  .btn-design:hover {
+    align-self: center;
+    width: 200px;
+   
+    background: rgba(0, 0, 0, 0.205);
+  } 
+  
+  
+}
