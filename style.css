@@ -1087,6 +1087,7 @@ body {
   #footer {
     background-color: #000;
     color: #fff;
+    overflow: auto;
    
     
   }
@@ -1106,6 +1107,10 @@ body {
     margin-top: 40px;
     transform: translate(90deg);
     text-align: center;
+ }
+ .footer4 {
+   margin-bottom: 50px;
+   height: 90% !important;
  }
  .footer1:hover, .footer2:hover, .footer3:hover, .footer4:hover {
     background-color: rgba(51, 51, 51, 0.61);
@@ -1217,11 +1222,7 @@ body {
 }
 
 .dots {
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
+display: none;
 }
 
 .dots__dot {
@@ -1251,7 +1252,7 @@ body {
 
 /* TESTIMONIALS */
 .testimonial {
-  width: 75%;
+  width: 70%;
   position: relative;
 }
 
@@ -1295,14 +1296,14 @@ body {
 }
 
 .testimonial__name {
-  font-size: 1.7rem;
+  font-size: 1.25rem;
   font-weight: 500;
   align-self: end;
   margin: 0;
 }
 
 .testimonial__location {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
 }
 
 .section__title--testimonials {
@@ -1310,6 +1311,258 @@ body {
 }
 
 
+/* Section-3 */
+.imgDiv {
+  position: relative;
+  
+}
+.firstImage {
+  position: relative;
+  width: 100%;
+  height: auto;
+  
+}
 
+.imgDiv h2{
+  position: absolute;
+  left: 2%;
+  top: 5%;
+  color: #ffffff;
+  font-size: 1.25rem;
+  z-index: 3;
+}
+
+.imgDiv p {
+  position: absolute;
+  left: 2%;
+  top: 30%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.15rem;
+  z-index: 3;
+  line-height: 1.2rem;
+}
+.imgDiv a {
+  position: absolute;
+  left: 7%;
+  top: 60%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.7rem;
+  z-index: 3;
+
+}
+.imgDiv a:hover {
+  position: absolute;
+  left: 7%;
+  top: 60%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.7rem;
+  text-decoration: none;
+  z-index: 3;
+  
+}
+.imgDiv:after {
+ position: absolute;
+ content: "";
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.6);
+ z-index: 2;
+}
+
+
+/* Section-4 */
+
+
+
+
+#section-4 h1{
+  margin-top: 0px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.green-bgA h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: #fff;
+  /* margin-left: 1%; */
  
+  
+}
+
+/* Section-3A */
+
+/* Section-3A */
+.imgDivA {
+  position: relative;
+}
+.firstImageA {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.imgDivA h2{
+  position: absolute;
+  left: 2%;
+  top: 3%;
+  color: #ffffff;
+  font-size: 1.25rem;
+  z-index: 3;
+}
+
+.imgDivA p {
+  position: absolute;
+  left: 2%;
+  top: 12%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.15rem;
+  z-index: 3;
+  line-height: 1.2rem;
+}
+.imgDivA a {
+  position: absolute;
+  left: 2%;
+  top: 90%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  z-index: 3;
+
+}
+.imgDivA a:hover {
+  position: absolute;
+  left: 2%;
+  top: 60%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.7rem;
+  text-decoration: none;
+  z-index: 3;
+  
+}
+.imgDivA:after {
+ position: absolute;
+ content: "";
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.6);
+ z-index: 2;
+}
+ 
+/* Section-2B */
+#section-2B .green-bgB {
+  width: 100%;
+  height: 280px;
+  background-color: #1c1f1f; 
+}
+.green-bgB {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.green-bgB h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: #fff;
+  /* margin-left: 1%; */
+ 
+  
+}
+.green-bgB p {
+  color: #fff;
+  /* margin-left: 1%; */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+/* Section 6 */
+.img-div {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.img-div img {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+.img-div::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: #000;
+  opacity: 0.4;
+  z-index: 2;
+}
+
+.img-div h3 {
+  font-size: 1.25rem;
+  color: #ffffff;
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  z-index: 3;
+}
+.img-div p {
+  font-size: 1.15rem;
+  color: #ffffff;
+  position: absolute;
+  left: 2%;
+  top: 12%;
+  z-index: 4;
+  line-height: 1.2rem;
+}
+
+.emptyDiv {
+  height: 100px;
+  width: 100%;
+  margin-top: 0;
+  background-color: #333;
+  position: relative;
+}
+.doluDiv {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  background-color: rgb(216, 173, 55);
+  top: -40%;
+  left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5
+  
+  ;
+}
+.doluDiv a {
+  color: #fff;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+.doluDiv a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.doluDiv button {
+  display: block;
+}
+
+
 }
