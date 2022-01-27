@@ -332,10 +332,12 @@ Project Right */
   .projectRight .part-left {
     line-height: 2rem; 
     margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   
   .projectRight .part-right {
-   height: 500px;
+   height: 400px;
    width: 100%;
    justify-self: end;
    margin-right: 0;
@@ -343,7 +345,7 @@ Project Right */
   
   .projectRight .part-right img {
     padding: 0;
-    height: 100%; 
+    height: 400px; 
     width: 100%;
     border-radius: 0;
   }
@@ -363,17 +365,19 @@ Project Right */
     justify-self: end;
     margin: 0;
     overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
   
   }
   
   
   .projectLeft .part-leftus {
-    height: 500px;
+    height: 400px;
    } 
    
    .projectLeft .part-leftus img {
      padding: 0;
-     height: 100%;
+     height: 400px;
      width: 100%; 
      margin-left:0;
      border-radius: 5px;
