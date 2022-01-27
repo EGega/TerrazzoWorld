@@ -113,7 +113,7 @@ Project Right */
   margin-bottom: 40px;
 }
 
-.designWithUs .img-div { 
+.designWithUs .img-div-changed { 
   align-self: center;
   justify-self: center;
  
@@ -254,10 +254,11 @@ Project Right */
   .designWithUs{
     display: grid;
     grid-template-columns: repeat(1, 1fr);  
-    margin-bottom: 40px;
+    grid-row-gap: 30px;
   }
   
-  .designWithUs .img-div { 
+  .designWithUs .img-div-changed { 
+    display: flex;
     align-self: center;
     justify-self: center;
    
@@ -265,7 +266,8 @@ Project Right */
   .designWithUs img { 
     height: auto;
     width: 80%; 
-    border-radius: 100px; 
+    border-radius: 50px; 
+    margin: auto;
   }
   .designWithUs .btn-div {
   
@@ -304,5 +306,90 @@ Project Right */
     background: rgba(0, 0, 0, 0.205);
   } 
   
+  .form {
+    position: relative;
+    width: 90%;
+    height: 600px;
+    background: rgb(58, 57, 57);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+
+   /* Project */
+
+
+  .projectRight {
+    display: grid;
+    grid-template-columns: 100%;
+    border-bottom: none;
+    padding-top: 40px;
+    
   
+  }
+  .projectRight .part-left {
+    line-height: 2rem; 
+    margin: 0;
+  }
+  
+  .projectRight .part-right {
+   height: 500px;
+   width: 100%;
+   justify-self: end;
+   margin-right: 0;
+  } 
+  
+  .projectRight .part-right img {
+    padding: 0;
+    height: 100%; 
+    width: 100%;
+    border-radius: 0;
+  }
+  
+  /* Project Left */
+  
+  .projectLeft {
+    display: grid;
+    grid-template-columns: 100%;
+    border-bottom: none;
+    padding-top: 40px;
+    
+  }
+  
+  .projectLeft .part-rightus {
+    line-height: 2rem; 
+    justify-self: end;
+    margin: 0;
+    overflow: hidden;
+  
+  }
+  
+  
+  .projectLeft .part-leftus {
+    height: 500px;
+   } 
+   
+   .projectLeft .part-leftus img {
+     padding: 0;
+     height: 100%;
+     width: 100%; 
+     margin-left:0;
+     border-radius: 5px;
+   }
+  
+  .check {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    }
+  .check:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .check .fa-readme {
+    margin-left: 12px;
+  }
 }
