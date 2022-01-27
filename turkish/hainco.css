@@ -263,6 +263,54 @@ transform: scale(1.1);
     width: 600%;
     padding: 7px;
   } 
+  .imain-div {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+  .bookHolder {
+    background-image: url('/terrazzoworld/bookholders_ccexpress.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .candleHolder {
+    background-image: url('/terrazzoworld/candlecover_opt.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mixed {
+    background-image: url('/terrazzoworld/mixmain_opt.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .tTray {
+    background-image: url('/terrazzoworld/traycover_opt.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .tTop {
+    background-image: url('/terrazzoworld/top7_ccexpress.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imain-div img{
+   display: none;
+  }
+  
+  .imain-div h2 {
+    position: absolute;
+    width: 80%;
+    top: 70%;
+    left: 3%;
+    color: #fff;
+    font-size: 1.5rem;
+  }
  }
 
  .preview-box {
@@ -519,3 +567,4 @@ transform: scale(1.1);
   height: 80px;
   margin-bottom: 120px;
 }
+
