@@ -50,7 +50,7 @@ body {
 
  
 .my-div{
-  background-image: url('terrazzoworld/lamps.JPG');
+  background-image: url('/terrazzoworld/lamps.JPG');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -421,7 +421,7 @@ body {
 #alganServices .box1::after {
   position: absolute;
   content: "";
-  background: url("terrazzoworld/lamp2.JPG");
+  background: url("/terrazzoworld/lamp2.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -440,7 +440,7 @@ body {
 #alganServices .box2::after {
   position: absolute;
   content: "";
-  background: url("terrazzoworld/candleholder.JPG");
+  background: url("/terrazzoworld/candleholder.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -459,7 +459,7 @@ body {
 #alganServices .box3::after {
   position: absolute;
   content: "";
-  background: url("terrazzoworld/top9.JPG");
+  background: url("/terrazzoworld/top9.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -482,7 +482,7 @@ body {
 #alganServices .box5::after {
   position: absolute;
   content: "";
-  background: url("terrazzoworld/bookholders.JPG");
+  background: url("/terrazzoworld/bookholders.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -502,7 +502,7 @@ body {
 #alganServices .box6::after {
   position: absolute;
   content: "";
-  background: url("terrazzoworld/mixed_opt.jpg");
+  background: url("/terrazzoworld/mixed_opt.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
